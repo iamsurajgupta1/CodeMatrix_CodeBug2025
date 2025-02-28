@@ -144,7 +144,7 @@ export default function Home() {
           </Link>
           <div className="space-x-6 flex items-center">
             {/* Navbar Links */}
-            <Link to="/jobs" className={`${isDarkMode ? "text-white" : "text-black"} hover:text-purple-500`}>Jobs</Link>
+            <Link to="/jobs" className={`${isDarkMode ? "text-white" : "text-black"} hover:text-purple-500`}>Bounties</Link>
             <Link to="/courses" className={`${isDarkMode ? "text-white" : "text-black"} hover:text-purple-500`}>Courses</Link>
             <Link to="/contact" className={`${isDarkMode ? "text-white" : "text-black"} hover:text-purple-500`}>Contact</Link>
 
@@ -189,6 +189,7 @@ export default function Home() {
               )}
             </button>
           </div>
+          <div>Sigin</div>
         </div>
       </nav>
 
