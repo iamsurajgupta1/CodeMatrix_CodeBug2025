@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Image Slider Transition */
+.transition-opacity {
+    transition: opacity 1s ease-in-out;
+  }
+  
