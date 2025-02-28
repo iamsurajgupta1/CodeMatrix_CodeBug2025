@@ -7,6 +7,9 @@ import ListJob from './pages/ListJob';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 
+
+
+
 // Placeholder pages
 const Dashboard = () => <div className="text-white">Dashboard Content</div>;
 const Jobs = () => <div className="text-white">Jobs Content</div>;
