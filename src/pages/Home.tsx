@@ -55,10 +55,12 @@ export default function Home() {
   // Typewriter effect
   const [text] = useTypewriter({
     words: [
-      "Find Your Dream Internship",
-      "Upskill with Industry-Level Courses",
-      "Connect with Top Employers",
-      "Earn While You Learn",
+     " Showcase Your Skills and Get Hired Today!",
+      "Build Your Portfolio, Grow Your Reputation, and Get Paid for What You Love.",
+    "  Find Opportunities That Match Your Skills – Fast and Easy!",
+      
+      "Your Dream Job or Project is Just a Click Away.",
+
     ],
     loop: true,
     delaySpeed: 2000,
@@ -74,12 +76,13 @@ export default function Home() {
 
   // Image slider logic
   const images = [
-   "https://cdni.iconscout.com/illustration/premium/thumb/young-lady-working-remotely-illustration-download-in-svg-png-gif-file-formats--remote-job-work-from-home-pack-business-illustrations-1953812.png?f=webp&h=240&modified_at=1587515137",
-   "https://img.freepik.com/free-vector/business-woman-working-her-clean-office-desk_3446-509.jpg?ga=GA1.1.1560451971.1739186953&semt=ais_hybrid",
+  "https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?ga=GA1.1.681336836.1731760829&semt=ais_hybrid",
+  "https://img.freepik.com/free-vector/recruit-agent-analyzing-candidates_74855-4565.jpg?ga=GA1.1.681336836.1731760829&semt=ais_hybrid",
+  "https://img.freepik.com/premium-vector/recruit-agent-analyzing-candidates_86047-104.jpg?ga=GA1.1.681336836.1731760829&semt=ais_hybrid",
+  "https://img.freepik.com/premium-vector/vector-illustration-application-form-employment-people-select-resume-job_545399-1009.jpg?ga=GA1.1.681336836.1731760829&semt=ais_hybrid"
 
-   "https://img.freepik.com/free-vector/boss-woman-concept-illustration_114360-16130.jpg?ga=GA1.1.1560451971.1739186953&semt=ais_hybrid",
 
-   "https://img.freepik.com/free-vector/business-woman-clerk-working-office-desk_3446-679.jpg?ga=GA1.1.1560451971.1739186953&semt=ais_hybrid",
+ 
   ];
 
   useEffect(() => {
